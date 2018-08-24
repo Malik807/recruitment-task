@@ -1,0 +1,11 @@
+<div *ngIf="postId" class="containter">
+  <div *ngFor="let comment of comments">
+
+    	<span class="">Id: {{ comment.id | json}}</span>
+    	
+    	Body {{comment.body | json}}
+
+    	<h4> Post Id {{ comment.postId | json}} </h4>
+  </div>
+</div>
+

@@ -1,0 +1,48 @@
+/*---------------------- Post Componenet CSS --------------------------------------*/
+h1 {
+  font-size: 2.3em;
+  color: #999;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+  padding-top: 0;
+}
+h4 {
+  font-size: 1em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.noDisplay{
+  display: none;
+}
+
+.containter {
+	font-family: Georgia, serif;
+	margin: 10px 15px;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  line-height: 32px;
+  font-size: 16px;
+  font-family: Arial;
+  padding: 0 10px;
+  margin: 0 15px;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}

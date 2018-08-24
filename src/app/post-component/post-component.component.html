@@ -1,0 +1,14 @@
+<div *ngIf="dataIsAvailable" class="containter">
+  <div *ngFor="let post of posts">
+    <h2>
+    	<span class="postTitle">Post Title: </span>
+    	
+    	<button (click)="onSelect(post.id);">{{ post.title | json}} </button>
+		ID:{{ post.id | json}}
+    </h2>
+    <h4> Author {{ post.author | json}} </h4>
+
+    <app-comment-component [postId]="selectedPostId" [class.noDisplay]="post.id != selectedPostId"></app-comment-component>
+  </div>
+</div>
+
